@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Duplicate File Remover Hunster Apps</string>
+
+    <string name="no_duplicates_found">No Duplicates Found!</string>
+    <string name="duplicate_audio">Duplicate Audio</string>
+    <string name="duplicate_apk">Duplicate Apk\'s</string>
+
+    <string name="interstitial">12606b8cdeab65da</string>
+    <string name="banner">188d3dd75eb9683b</string>
+    <string name="nativeAd">0681f5e0453b1d9b</string>
+    <string name="duplicate_remover">Duplicate File Remover</string>
+    <string name="opendrawer">Drawer Open</string>
+    <string name="closedrawer">Drawer Close</string>
+    <string name="todo">TODO</string>
+    <string name="images">Images</string>
+    <string name="photos">Photos</string>
+    <string name="allow_permissions_to_continue">Allow Permissions to continue</string>
+    <string name="go_to_settings_to_enable_permissions">Go to Settings to enable Permissions</string>
+    <string name="cancel">Cancel</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="manage_storage">Manage External Storage</string>
+    <string name="allow">Allow</string>
+    <string name="rate_us">Rate Us</string>
+    <dimen name="banner_height">50dp</dimen>
+    <string name="share">Share</string>
+    <string name="more">More Apps</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="duplicate_contacts">Duplicate Contacts</string>
+    <string name="duplicate_documents">Duplicate Documents</string>
+    <string name="duplicate_photos">Duplicate Photos</string>
+    <string name="duplicate_videos">Duplicate Videos</string>
+    <string name="terms_conditions">Terms and Conditions</string>
+    <string name="_saving_your_any_personal_information">By Downloading and using our Duplicate File Remover Application All Terms and Conditions automatically applies to you. You should make sure that you must have to read all the terms and conditions before using the application. This app is 100% safe because this app is not saving your any personal information.</string>
+    <string name="this_application_will_find_duplicates">This application will find duplicates from your device by scanning device files and contacts</string>
+    <string name="needs_manage_external_storage_permission">Application needs this Permission to scan duplicated documents and all other non media files. So for that purpose application needs manage external storage permission.</string>
+    <string name="app_will_scan_device_for_duplicates">Duplicate File Remover         App will scan device for duplicates</string>
+    <string name="why_manage_storage">Why Manage External Storage?</string>
+    <string name="_2_manage_storage_permission">3- Manage External Storage Permission</string>
+    <string name="following_permissions_app_will_need_to_function_properly">Following Permissions App will need to function properly</string>
+
+    <string name="read_and_write_external_storage">1- Read and Write External Storage Permission</string>
+    <string name="_2_read_and_write_contacts_permission">2- Read and Write Contacts Permission</string>
+    <string name="duplicate_file_remover">Duplicate File Remover</string>
+</resources>

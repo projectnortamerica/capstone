@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp"
+    android:background="@color/app_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/allow_permissions_to_continue"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16ssp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <ImageView
+        android:id="@+id/btnAllow"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/btn_allow"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/tvText"
+        app:layout_constraintLeft_toLeftOf="@id/tvText"
+        app:layout_constraintRight_toRightOf="@id/tvText"/>
+    <ImageView
+        android:id="@+id/btnDeny"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/btn_deny"
+        app:layout_constraintTop_toBottomOf="@id/btnAllow"
+        app:layout_constraintLeft_toLeftOf="@id/tvText"
+        app:layout_constraintRight_toRightOf="@id/tvText"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
